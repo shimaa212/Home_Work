@@ -5,8 +5,11 @@
 //- If it's between 15 and 30, print 'It's warm.'.
 //- Otherwise, print 'It's cold.'.
 
+import 'dart:io';
+
 void main (){
-  int temperature = 40;
+  int temperature = int.parse(stdin.readLineSync()!);
+  
   if(temperature > 30 ){
     print('It\'s hot!');
   }

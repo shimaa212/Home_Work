@@ -2,9 +2,12 @@
 //Instructions:
 //- Create an integer variable month with a value between 1 and 12.
 //- Use a switch statement to print the season based on the month.
+import 'dart:io';
+
 void main (){
   
-  int month = 7;
+   print('Enter a number between 1-12');
+  int month =int.parse(stdin.readLineSync()!);
 
   switch(month){
     case 12:
