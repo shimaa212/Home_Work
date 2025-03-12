@@ -10,5 +10,5 @@ void main (){
 // correct code :  we can replace String type to dynamic type.
  dynamic name2= "Alice";
  name2 = 123;
- print(name2);
+ print(name2); lenth
 }
