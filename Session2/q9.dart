@@ -6,7 +6,7 @@ import 'dart:io';
 
 void main (){
   
-   print('Enter a number between 1-12');
+   print('Enter a number of month');
   int month =int.parse(stdin.readLineSync()!);
 
   switch(month){

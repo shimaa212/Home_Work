@@ -8,6 +8,7 @@
 import 'dart:io';
 
 void main (){
+  print('Enter temperature');
   int temperature = int.parse(stdin.readLineSync()!);
   
   if(temperature > 30 ){
