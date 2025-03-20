@@ -7,7 +7,7 @@ void main(){
     ' Paris': {'temperature': 22, 'humidity': 90}};
     print(weatherData['London']);
     print(weatherData['New York']);
-    print(weatherData[' Paris']);
+    print(weatherData['Paris']);
     print(weatherData['Tokyo']);
 
 }
