@@ -5,8 +5,16 @@
 // - Whether you are a student (bool)
 // Then, print these values using a single print statement.
 void main (){
-Human human = Human(name: 'shimaa', age: 25, height: 1.54, student: false);
-print(human);
+Human human = Human();
+ 
+  human.name = 'shimaa'; 
+  human.age = 25; 
+  human.height = 1.7; 
+  human.student = true; 
+  print(human.name);
+  print(human.age);
+  print(human.height);
+  print(human.student);
 }
 class Human{
   String? name;
@@ -14,5 +22,5 @@ class Human{
   double? height;
   bool? student;
   Human(
-  {required this.name, required this.age,required this.height,required this.student});
+  { this.name,  this.age,this.height, this.student});
 }
